@@ -51,7 +51,7 @@ def printMem(buster):
 
         fabbr = []
         for item in jverse:      
-            fabbr.append('  '.join([x[0]  for x in  enumerate(item['text'].split())]).upper())      
+            fabbr.append('  '.join([x[0]  for i, x in  enumerate(item['text'].split())]).upper())      
         print('\n'.join(fabbr))
         print('\n') 
         
