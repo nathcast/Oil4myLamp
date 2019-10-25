@@ -84,10 +84,14 @@ if __name__ == '__main__':
     
     buster = ["gen 1:1", "exo 1:1", "lev 1:1", "John 3:16", "exodus 14:14", "matthew 7:7-9", "gal 3:1-5", "1 Cor 13:1,4,5"]
     
-    for ref in buster: 
-        learning =  printLearn(ref)
-        for verses in learning:
-            print(verses)
+    print("Example of Learning Page")
+    print(" ")
+    ref = buster[3]
+    learning =  printLearn(ref)
+    for verses in learning:
+        print(verses)
+    print(" ")
     printList(buster)
+    print(" ")
     printMem(buster)
     
