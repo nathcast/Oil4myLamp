@@ -3,9 +3,9 @@ Created on 11 Oct 2019
 
 @author: castells
 '''
-import requests
 import json
 import random
+import requests
 
 
 class APIError(Exception):
